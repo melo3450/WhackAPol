@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Player 1 Candidate :"
+        android:id="@+id/Player1Candidate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Player 1 Current Score :"
+        android:id="@+id/P1CurrScore"
+        android:layout_alignTop="@+id/P2CurrScore"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Player 2 Candidate :"
+        android:id="@+id/Player2Candidate"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Player 2 Current Score :"
+        android:id="@+id/P2CurrScore"
+        android:layout_below="@+id/Player2Candidate"
+        android:layout_alignRight="@+id/Player2Candidate"
+        android:layout_alignEnd="@+id/Player2Candidate"
+        android:layout_marginTop="51dp" />
+
+
+</RelativeLayout>
